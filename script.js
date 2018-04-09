@@ -41,7 +41,7 @@ for (var i = 0; i < keys.length; i++) {
         // 2. The equation shouldn't start from an operator except minus
         // 3. not more than 1 decimal should be there in a number
 
-        // We'll fix these issues using some simple checks
+        // We'll fix these issues using some simple checks, changing in the comment
 
         // indexOf works only in IE9+
         else if (operators.indexOf(btnVal) > -1) {
@@ -53,7 +53,7 @@ for (var i = 0; i < keys.length; i++) {
             if (inputVal != '' && operators.indexOf(lastChar) == -1)
                 input.innerHTML += btnVal;
 
-            // Allow minus if the string is empty
+            // Allow minus if the string is empty 
             else if (inputVal == '' && btnVal == '-')
                 input.innerHTML += btnVal;
 
