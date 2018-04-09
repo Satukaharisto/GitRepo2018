@@ -1,4 +1,4 @@
-// Get all the keys from document
+// Get all the keys from document (ALso, Oskar is a pretty awesome guy /Anonymous)
 var keys = document.querySelectorAll('#calculator span');
 var operators = ['+', '-', 'x', '÷'];
 var decimalAdded = false;
